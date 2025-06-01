@@ -8,7 +8,11 @@ public class TransaksiLayanan {
         this.pasien = pasien;
         this.dokter = dokter;
         this.durasiLayanan = durasi;
-        this.biaya = durasi * 50000;
+        this.biaya = hitungBiaya();
+    }
+
+    public int hitungBiaya() {
+        return durasiLayanan * 50000;
     }
 
     public String getRingkasan() {
