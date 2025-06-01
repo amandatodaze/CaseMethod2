@@ -5,6 +5,12 @@ class LinkedListAntrian {
     NodePasien tail;
     int size = 0;
 
+    public LinkedListAntrian() {
+        head = null;
+        tail = null;
+        size = 0;
+    }
+
     boolean isEmpty() {
         return head == null;
     }
