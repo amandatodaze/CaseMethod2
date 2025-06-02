@@ -3,7 +3,7 @@ class LinkedListAntrian {
 
     NodePasien head;
     NodePasien tail;
-    int size = 0;
+    int size;
 
     public LinkedListAntrian() {
         head = null;
