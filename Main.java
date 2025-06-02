@@ -79,5 +79,7 @@ public class Main {
                     System.out.println("Pilihan tidak valid.");
             }
         } while (pilih != 0);
+
+        sc.close();
     }
 }
