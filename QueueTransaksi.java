@@ -7,8 +7,8 @@ class QueueTransaksi {
     public QueueTransaksi(int kapasitas) {
         max = kapasitas;
         data = new TransaksiLayanan[max];
-        front = 0;
-        rear = 0;
+        front = -1;
+        rear = -1;
         size = 0;
     }
 
